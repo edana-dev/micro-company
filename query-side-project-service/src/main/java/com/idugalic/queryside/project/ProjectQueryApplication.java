@@ -10,9 +10,9 @@ import org.springframework.security.core.context.SecurityContextHolder;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class Application {
+public class ProjectQueryApplication {
     public static void main(String... args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(ProjectQueryApplication.class, args);
     }
 
     @Bean

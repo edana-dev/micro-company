@@ -19,5 +19,5 @@ public class CloudConfiguration extends AbstractCloudConfig{
     @Bean()
     public ConnectionFactory rabbitFactory() {
         return connectionFactory().rabbitConnectionFactory();
-    }
+}
 }

@@ -19,10 +19,10 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.R
 @EnableZuulProxy
 @EnableResourceServer
 @EnableHystrix
-public class Application {
+public class GatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(GatewayApplication.class, args);
     }
     @Bean
     public AuditorAware<String> auditorAware() {

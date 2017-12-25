@@ -10,7 +10,7 @@ services:
     ports:
      - "8761:8761"
     environment:
-      HOST_IP: $DOCKER_HOST_IP
+      HOST_IP: 192.168.1.110
     entrypoint: ./wait-for-it.sh configserver:8888 -t 60 --
     command: java -Dspring.profiles.active=docker -jar /app.jar
     
