@@ -7,7 +7,7 @@ spring:
       server:
         git:
 #          uri: https://github.com/idugalic/micro-company-config.git
-          uri: file:///E:/jianke/micro-company-config/
+          uri: https://github.com/edana-dev/micro-company-config.git
           default-label: axon3-boot
       label: axon3-boot
     
